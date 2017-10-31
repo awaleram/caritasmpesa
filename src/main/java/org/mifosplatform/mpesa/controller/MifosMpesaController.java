@@ -237,6 +237,7 @@ public class MifosMpesaController {
 		Page<Mpesa> transactionDetails = null;
 		 HttpHeaders responseHeaders = new HttpHeaders();
 		 responseHeaders.set("Access-Control-Allow-Origin","*");
+		 responseHeaders.set("Access-Control-Allow-Headers", "*");
 		 responseHeaders.set("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT, OPTIONS");
 		 //responseHeaders.setOrigin("*");
 		try{
@@ -256,6 +257,7 @@ public class MifosMpesaController {
 		 HttpHeaders responseHeaders = new HttpHeaders();
 		List<Mpesa>transactionDetails=null;
 		 responseHeaders.set("Access-Control-Allow-Origin","*");
+		 responseHeaders.set("Access-Control-Allow-Headers", "*");
 		 responseHeaders.set("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT, OPTIONS");
 		 //responseHeaders.setOrigin("*");
 		try{
@@ -275,6 +277,7 @@ public class MifosMpesaController {
 		 HttpHeaders responseHeaders = new HttpHeaders();
 		 Page<Mpesa>transactionDetails=null;
 		 responseHeaders.set("Access-Control-Allow-Origin","*");
+		 responseHeaders.set("Access-Control-Allow-Headers", "*");
 		 responseHeaders.set("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT, OPTIONS");
 		 //responseHeaders.setOrigin("*");
 		 try{   
